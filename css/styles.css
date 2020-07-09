@@ -1,0 +1,91 @@
+body{
+    margin: 0;
+    background: linear-gradient(to left bottom, hsl(0, 0%, 100%) 0%,hsl(0, 90%, 92%) 100%);
+    font-family: 'Josefin Sans', sans-serif;
+}
+p{
+    color: hsl(0, 36%, 70%);
+    font-style: normal;
+    font-weight: bold;
+    line-height: 1.5;
+}
+::placeholder {
+    color: hsl(0, 36%, 70%);
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1em;
+  }
+.logo{
+    margin-bottom: 20px;
+}
+.apparel{
+    
+    float: right;
+    object-fit: fill;
+}
+.header{
+    object-fit: fill;
+}
+.apparel-hero{
+    object-fit: fill;
+}
+.were{
+    font-style: normal;
+    color: hsl(0, 36%, 70%);
+    font-size: 50px;
+    font-weight: 300px;
+    margin-bottom: 20px;
+}
+.comingsoon{
+    font-style: normal;
+    font-size: 50px;
+    font-weight: 800px;
+    margin-bottom: 20px;
+}
+.apparel-description{
+    font-size: 16px;
+    width: 400px;
+    text-align: left;
+    padding-left: 100px;
+    padding-top: 100px;
+    
+}
+#email-box{
+    display: inline-block;
+    background: hsl(0, 0%, 100%);
+    width: 350px;
+    border-radius: 60px;
+    height: 40px;
+    font-size: 16px;
+    font-weight: 100;
+    text-decoration-color: hsl(0, 90%, 92%);
+    border: solid hsl(0, 90%, 92%) 1px;
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: start;
+    cursor: text;
+}
+.email-container{
+    position: relative;
+}
+.email-address{
+    overflow: hidden;
+    padding-right: .5em;
+}
+.submit-btn{
+
+    background: hsl(0, 90%, 92%);
+    background-image: linear-gradient(to bottom, hsl(0, 90%, 92%),hsl(0, 36%, 70%));
+    border-radius: 60px;
+    height: 50px;
+    width: 90px;
+    font-size: 20px;
+    font-weight: bold;
+    box-shadow: 1px 1px 20px 0px #ffffff;
+    text-shadow: 1px 1px 20px #ffffff;
+    border: solid hsl(0, 90%, 92%) 1px;
+    display: inline-block;
+    color: white;
+    cursor: pointer;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+}
